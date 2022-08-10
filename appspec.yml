@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /TestXMLFile.xml
-    destination: /etc/tomcat9/webapps/
+    destination: /etc/tomcat9/
     
 file_exists_behavior: OVERWRITE    
           
