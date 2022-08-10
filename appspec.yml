@@ -5,14 +5,4 @@ files:
   - source: /TestXMLFile.xml
     destination: /etc/tomcat9/
     
-file_exists_behavior: OVERWRITE    
-          
-hooks:
-  AfterInstall:
-    - location: server_start.sh
-      timeout: 300
-      runas: root
-  ApplicationStop:
-    - location: server_stop.sh
-      timeout: 300
-      runas: root 
+file_exists_behavior: OVERWRITE
