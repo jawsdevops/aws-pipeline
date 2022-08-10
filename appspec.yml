@@ -5,7 +5,7 @@ files:
   - source: /awspipelinedemo.war
     destination: /opt/tomcat/webapps/
   - source: /TestXMLFile.xml
-    destination: /opt/tomcat/webapps/
+    destination: /etc/tomcat9/webapps/
     
 file_exists_behavior: OVERWRITE    
           
