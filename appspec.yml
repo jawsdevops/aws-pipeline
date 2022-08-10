@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /awspipelinedemo.war
-    destination: /opt/tomcat/webapps/
+    destination: /etc/tomcat9/webapps/
   - source: /TestXMLFile.xml
     destination: /etc/tomcat9/webapps/
     
